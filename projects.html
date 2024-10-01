@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SRDEVB | Projects</title>
+  <style>
+    body {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      background-color: #000080;
+      color: #00FF00;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: #FF00FF;
+      text-shadow: 2px 2px #FFFF00;
+    }
+    a {
+      color: #00FFFF;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #FFFF00;
+      text-decoration: underline;
+    }
+    hr {
+      border: 2px dashed #FF00FF;
+    }
+    .project {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 3px outset #C0C0C0;
+      margin: 20px 0;
+      padding: 10px;
+    }
+    .blink {
+      animation: blinker 1s linear infinite;
+    }
+    @keyframes blinker {
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">Spiro's Page</a></h1>
+    <nav>
+      <ul style="list-style-type: none; padding: 0;">
+        <li style="display: inline; margin-right: 10px;"><a href="index.html" class="blink">Home</a></li>
+        <li style="display: inline;"><a href="pub" target="_blank" class="blink">Public Folder</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <section>
+      <h2>My Projects</h2>
+      <p>Here you'll find an overview of some of the projects I'm working on or have completed.</p>
+
+      <div class="project">
+        <h3>Algorithmic Trading Bot</h3>
+        <p>A sophisticated trading bot that uses AI and machine learning to analyze market trends and execute trades.</p>
+      </div>
+
+      <div class="project">
+        <h3>AI-Driven Market Analysis Tool</h3>
+        <p>A tool that leverages natural language processing to analyze financial news and social media sentiment for market predictions.</p>
+      </div>
+
+      <div class="project">
+        <h3>Blockchain Explorer</h3>
+        <p>A web application that allows users to explore and analyze blockchain transactions and smart contracts.</p>
+      </div>
+
+      <div class="project">
+        <h3>Personal Finance Dashboard</h3>
+        <p>An interactive dashboard for tracking personal finances, investments, and cryptocurrency holdings.</p>
+      </div>
+    </section>
+
+    <section>
+      <p class="blink">These projects are constantly evolving. Check back often for updates!</p>
+    </section>
+  </main>
+
+  <footer>
+    <marquee>Welcome to my awesome 90s-style website! Thanks for visiting!</marquee>
+  </footer>
+</body>
+</html>
