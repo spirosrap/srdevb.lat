@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SRDEVB | Projects</title>
+  <title>SRDEVB | Movies</title>
   <style>
     body {
       font-family: "Verdana", sans-serif;
@@ -27,13 +27,6 @@
     }
     hr {
       border: 1px solid #4B0082;
-    }
-    .project {
-      background-color: #F0F8FF;
-      border: 2px solid #4B0082;
-      border-radius: 10px;
-      margin: 20px 0;
-      padding: 10px;
     }
     .blink {
       animation: blinker 2s linear infinite;
@@ -61,23 +54,29 @@
       max-width: 100%;
       border: 3px solid #4B0082;
     }
+    .movie {
+      background-color: #F0F8FF;
+      border: 2px solid #4B0082;
+      border-radius: 10px;
+      margin: 20px 0;
+      padding: 10px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
       <pre class="ascii-art">
- ____                _           _       
-|  _ \ _ __ ___     (_) ___  ___| |_ ___ 
-| |_) | '__/ _ \    | |/ _ \/ __| __/ __|
-|  __/| | | (_) |   | |  __/ (__| |_\__ \
-|_|   |_|  \___/   _/ |\___|\___|\__|___/
-                  |__/                   
+ __  __            _           
+|  \/  | _____   _(_) ___  ___ 
+| |\/| |/ _ \ \ / / |/ _ \/ __|
+| |  | | (_) \ V /| |  __/\__ \
+|_|  |_|\___/ \_/ |_|\___||___/
       </pre>
       <h1><a href="index.html">Spiro's Page</a></h1>
       <nav>
         <a href="index.html" class="blink">Home</a> |
-        <a href="movies.html" class="blink">Movies</a> |
+        <a href="projects.html" class="blink">Projects</a> |
         <a href="pub" target="_blank" class="blink">Public Folder</a>
       </nav>
       <hr>
@@ -85,47 +84,33 @@
 
     <main>
       <section>
-        <h2>My Projects</h2>
-        <p>Here you'll find an overview of some of the projects I'm working on or have completed.</p>
+        <h2>My Movie Collection</h2>
+        <p>Here are some of my favorite movies with short clips:</p>
 
-        <div class="project">
-          <h3>Algorithmic Trading Bot</h3>
-          <p>A sophisticated trading bot that uses AI and machine learning to analyze market trends and execute trades.</p>
+        <div class="2001.A.Space.Odyssey">
+          <h3>Movie 1</h3>
+          <video controls width="640" height="360">
+            <source src="2001.A.Space.Odyssey.1968.720p.BrRip.x264.YIFY.mp4" type="video/mp4">
+            <track kind="subtitles" src="2001.A.Space.Odyssey.1968.720p.BrRip.x264.YIFY.srt" srclang="en" label="English" default>
+            Your browser does not support the video tag.
+          </video>
         </div>
 
-        <div class="project">
-          <h3>AI-Driven Market Analysis Tool</h3>
-          <p>A tool that leverages natural language processing to analyze financial news and social media sentiment for market predictions.</p>
+        <div class="movie">
+          <h3>Movie 2</h3>
+          <video controls width="640" height="360">
+            <source src="pub/movie2_clip.mp4" type="video/mp4">
+            <track kind="subtitles" src="pub/movie2_clip.srt" srclang="en" label="English" default>
+            Your browser does not support the video tag.
+          </video>
         </div>
 
-        <div class="project">
-          <h3>Blockchain Explorer</h3>
-          <p>A web application that allows users to explore and analyze blockchain transactions and smart contracts.</p>
-        </div>
-
-        <div class="project">
-          <h3>Personal Finance Dashboard</h3>
-          <p>An interactive dashboard for tracking personal finances, investments, and cryptocurrency holdings.</p>
-        </div>
-      </section>
-
-      <section>
-        <p class="blink">These projects are constantly evolving. Check back often for updates!</p>
-      </section>
-
-      <!-- Video Player -->
-      <section>
-        <h3>Project Demo Video:</h3>
-        <video controls width="640" height="360">
-          <source src="pub/project_demo.mp4" type="video/mp4">
-          <track kind="subtitles" src="pub/project_demo.srt" srclang="en" label="English" default>
-          Your browser does not support the video tag.
-        </video>
+        <!-- Add more movie entries as needed -->
       </section>
     </main>
 
     <footer>
-      <marquee behavior="alternate" scrollamount="3">Welcome to my awesome 90s-style website! Thanks for visiting!</marquee>
+      <marquee behavior="alternate" scrollamount="3">Welcome to my awesome 90s-style movie collection! Enjoy the clips!</marquee>
     </footer>
   </div>
 
